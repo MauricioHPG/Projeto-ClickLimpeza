@@ -41,5 +41,11 @@ namespace ClickLimpeza
             var menucliente = new MenuClientes();
             menucliente.ShowDialog();
         }
+
+        private void btnCargo_Click(object sender, EventArgs e)
+        {
+            var menucargo = new MenuCargos();
+            menucargo.ShowDialog();
+        }
     }
 }

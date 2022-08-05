@@ -34,6 +34,7 @@
             this.btnFuncionario = new System.Windows.Forms.Button();
             this.btnServico = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnCargo = new System.Windows.Forms.Button();
             this.grbGerenciar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,6 +54,7 @@
             // 
             // grbGerenciar
             // 
+            this.grbGerenciar.Controls.Add(this.btnCargo);
             this.grbGerenciar.Controls.Add(this.btnCliente);
             this.grbGerenciar.Controls.Add(this.btnFuncionario);
             this.grbGerenciar.Controls.Add(this.btnServico);
@@ -60,14 +62,14 @@
             this.grbGerenciar.ForeColor = System.Drawing.Color.RoyalBlue;
             this.grbGerenciar.Location = new System.Drawing.Point(34, 229);
             this.grbGerenciar.Name = "grbGerenciar";
-            this.grbGerenciar.Size = new System.Drawing.Size(319, 180);
+            this.grbGerenciar.Size = new System.Drawing.Size(319, 216);
             this.grbGerenciar.TabIndex = 2;
             this.grbGerenciar.TabStop = false;
             this.grbGerenciar.Text = "GERENCIAR";
             // 
             // btnCliente
             // 
-            this.btnCliente.Location = new System.Drawing.Point(25, 126);
+            this.btnCliente.Location = new System.Drawing.Point(25, 179);
             this.btnCliente.Name = "btnCliente";
             this.btnCliente.Size = new System.Drawing.Size(258, 31);
             this.btnCliente.TabIndex = 2;
@@ -105,12 +107,22 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // btnCargo
+            // 
+            this.btnCargo.Location = new System.Drawing.Point(25, 131);
+            this.btnCargo.Name = "btnCargo";
+            this.btnCargo.Size = new System.Drawing.Size(258, 31);
+            this.btnCargo.TabIndex = 3;
+            this.btnCargo.Text = "CARGOS";
+            this.btnCargo.UseVisualStyleBackColor = true;
+            this.btnCargo.Click += new System.EventHandler(this.btnCargo_Click);
+            // 
             // MenuInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(389, 421);
+            this.ClientSize = new System.Drawing.Size(389, 457);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.grbGerenciar);
             this.Controls.Add(this.btnOrdem);
@@ -130,6 +142,7 @@
         private System.Windows.Forms.Button btnFuncionario;
         private System.Windows.Forms.Button btnServico;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnCargo;
     }
 }
 

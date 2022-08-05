@@ -76,7 +76,7 @@ namespace ClickLimpeza.Banco
         public static bool Modificar(Cargo c)
         {
             string comando;
-            comando = "UPDATE cargos SET nome = @nome, salario = @salario WHERE id = @id";
+            comando = "UPDATE cargos SET nome_cargo = @nome, salario = @salario WHERE id = @id";
 
             ConexaoBD conexaoBD = new ConexaoBD();
             MySqlConnection con = conexaoBD.ObterConexao();

@@ -63,6 +63,7 @@
             // 
             // dgvCliente
             // 
+            this.dgvCliente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCliente.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvCliente.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;

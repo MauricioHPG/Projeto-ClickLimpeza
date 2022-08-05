@@ -213,6 +213,7 @@
             // 
             // dgvOS
             // 
+            this.dgvOS.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvOS.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgvOS.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvOS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;

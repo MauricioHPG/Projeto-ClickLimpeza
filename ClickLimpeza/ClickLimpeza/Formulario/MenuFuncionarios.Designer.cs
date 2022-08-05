@@ -62,6 +62,7 @@
             // 
             // dgvFuncionario
             // 
+            this.dgvFuncionario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvFuncionario.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvFuncionario.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvFuncionario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;

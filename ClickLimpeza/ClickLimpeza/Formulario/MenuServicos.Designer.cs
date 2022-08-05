@@ -95,6 +95,7 @@
             // 
             // dgvServico
             // 
+            this.dgvServico.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvServico.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvServico.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvServico.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;

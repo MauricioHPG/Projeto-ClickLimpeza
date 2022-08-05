@@ -206,6 +206,7 @@
             // 
             // dgvCargo
             // 
+            this.dgvCargo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCargo.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dgvCargo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvCargo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
